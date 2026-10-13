@@ -1,0 +1,9 @@
+{
+	"extends": "agents/tsconfig",
+	"compilerOptions": {
+		"types": ["node", "vite/client", "@cloudflare/workers-types"],
+		"jsx": "react-jsx",
+		"noEmit": true
+	},
+	"include": ["src/**/*.ts", "src/**/*.tsx", "env.d.ts", "vite.config.ts"]
+}
